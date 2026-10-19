@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- New Purple and Blue Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A"/> <!-- Deep Blue -->
+      <stop offset="100%" stop-color="#7E22CE"/> <!-- Rich Purple -->
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- App Icon Background -->
+  <rect x="16" y="16" width="480" height="480" rx="110" 
+        fill="url(#bg)" stroke="#4C1D95" stroke-width="8"/>
+
+  <!-- Stylized J -->
+  <path d="M 150 140
+           H 350
+           V 310
+           C 350 370 305 400 245 400
+           C 190 400 155 370 155 325
+           H 210
+           C 210 345 225 355 250 355
+           C 285 355 295 335 295 310
+           V 190
+           H 150
+           Z"
+        fill="#FFFFFF" filter="url(#shadow)"/>
+
+  <!-- Small integrated x/star -->
+  <path d="M 400 315
+           L 412 352
+           L 449 364
+           L 412 376
+           L 400 413
+           L 388 376
+           L 351 364
+           L 388 352
+           Z"
+        fill="#FFFFFF" filter="url(#shadow)"/>
+</svg>
